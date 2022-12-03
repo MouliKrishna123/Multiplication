@@ -1,0 +1,8 @@
+a=int(input("enter up to which you want table:"))
+print("your table is ")
+for i in range (2,a+1) :
+    for j in range(1,11):
+        print(i,"*",j,"=",i*j)
+        j=j+1
+    print ("***************")
+i=i+1
